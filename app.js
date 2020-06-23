@@ -65,5 +65,65 @@ const birthYear = 2004
 const currentYear = 2020
 
 // <  >  =  <=  >=
-const isFullAge = currentYear - birthYear >= fullAge 
+const isFullAge = currentYear - birthYear >= fullAge
 
+
+
+
+// 6 If-else
+const courseStatus = 'fail'
+
+if (courseStatus === 'ready'){
+    console.log('course is ready')
+} else if (courseStatus === 'pending'){
+    console.log('course is in developing mode')
+} else {
+    console.log('course is not here')
+}
+
+//  there is a difference between == and === in js for data types
+
+
+
+
+// 7 Boolean logic
+// logic operators in js are like && or ||
+
+
+
+
+
+// 8 Functions
+function calculateAge(year) {
+    return 2020 - year
+}
+
+const myAge = calculateAge(2004)
+console.log(myAge)
+
+function logInfoAbout(name, year) {
+    const age = calculateAge(year)
+    conslole.log('person is ' + age + 'age, and his name is ' + name)
+
+}
+
+
+
+
+// 9 Arrays
+const cars = ['mazda', 'mersedes', 'ford']
+console.log(cars.length)
+console.log(cars)
+
+
+
+
+// 10 Cycles
+const cars = ['mazda', 'mersedes', 'ford']
+
+for (let i = 0; i< cars.length; i++) {
+    console.log(i)
+    const car = cars[i]
+    console.log(car)
+    
+}
